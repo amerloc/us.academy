@@ -1,0 +1,6 @@
+# Environment Variables for US Academy Contact Form
+# Copy this file to .env and update with your actual values
+# These should be set in your hosting environment for security
+
+SMTP_PASSWORD=your_actual_smtp_password_here
+RECAPTCHA_SECRET_KEY=your_actual_recaptcha_secret_key_here

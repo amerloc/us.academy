@@ -1,0 +1,32 @@
+# Robots.txt for United Services Academy
+# https://us.academy
+
+User-agent: *
+Allow: /
+
+# Disallow sensitive files and directories
+Disallow: /admin/
+Disallow: /private/
+Disallow: /config.php
+Disallow: /contact-handler.php
+Disallow: /contact-handler-simple.php
+Disallow: /email_log.txt
+Disallow: /rate_limit.json
+Disallow: /.env
+Disallow: /env.example
+Disallow: /*.log
+Disallow: /tmp/
+Disallow: /cache/
+
+# Allow important pages
+Allow: /index.html
+Allow: /contact
+Allow: /about
+Allow: /programs
+Allow: /veterans
+
+# Sitemap location
+Sitemap: https://us.academy/sitemap.xml
+
+# Crawl delay to prevent server overload
+Crawl-delay: 1
